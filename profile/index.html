@@ -3,8 +3,8 @@
 
 <head>
     <title>L10HandOn</title>
-<link href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/solar/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-8nq3OiMMgrVFAHyRMMO+DTfMEciSY+c3Awhj/5ljQ1xck1Uv2BUtMjsjLD8GT5Er" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/simplex/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1OYccka9EByiS23wvPFiYHBPRAgU91xYVFb8g8sen6vRiBI5Uko6+B87q8zPGUnA" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -25,50 +25,51 @@
 <body>
     <div class="container">
         <header class="header-container">
-            <button type="button" class="btn btn-primary btn-lg btn-block">Kevin Frohlich: Full Stack Developer</button>
+            <button type="button" class="btn btn-info btn-lg btn-block">Kevin Frohlich: Full Stack Developer</button>
         </header>
         <br>
-        
+    
+    
         <div class="row">
             <div id="col1" class="col-sm-5">
-                <img src="images/kev.jpg" class="profile">
+                <img src="https://static1.squarespace.com/static/58f705e5893fc0eeb1eaf706/t/5dd4d80ccb893b61e3fed8c9/1574230094916/kev.jpg?format=300w"
+                    class="profile">
                 <table>
                     <th>
-                    <tr class="table-dark">
-                    <td>
-                        <div id="one"><a href="https://github.com/KevinFrohlich"><img src="images/GitHub-light.png"
-                                    class="git"></a></div>
-                    </td>
-                    <td>
-                        <div id="two"><a href="https://www.linkedin.com/in/kevin-frohlich-a9478b3a/"><img
-                                    src="images/link-white.png" class="linkin"></a></div>
-                    </td>
-                    <td>
-                        <div id="three"><a href="https://www.facebook.com/kevin.frohlich"><img
-                                    src="images/face-white.png" class="face"></a></div>
-                    </td>
-                    <td>
-                        <div id="four"><a href="https://www.instagram.com/froggies_art"><img src="images/in-white.png"
-                                    class="insta"></a></div>
-                    </td>
-                    </tr>
+                        <tr class="table-dark">
+                            <td>
+                                <div id="one"><a href="https://github.com/KevinFrohlich"><img
+                                            src="https://static1.squarespace.com/static/58f705e5893fc0eeb1eaf706/t/5dd4d97d305f4c301a5d534a/1574230398670/GitHub-Light.png?format=300w"
+                                            class="git"></a></div>
+                            </td>
+                            <td>
+                                <div id="two"><a href="https://www.linkedin.com/in/kevin-frohlich-a9478b3a/"><img
+                                            src="https://static1.squarespace.com/static/58f705e5893fc0eeb1eaf706/t/5dd4ddf94a9bfb2d3f9092a4/1574231546641/link-white.png?format=100w"
+                                            class="linkin"></a></div>
+                            </td>
+                            <td>
+                                <div id="three"><a href="https://www.facebook.com/kevin.frohlich"><img
+                                            src="https://static1.squarespace.com/static/58f705e5893fc0eeb1eaf706/t/5dd4d970e71f5a10612c6b80/1574230385349/face-white.png?format=100w"
+                                            class="face"></a></div>
+                            </td>
+                            <td>
+                                <div id="four"><a href="https://www.instagram.com/froggies_art"><img
+                                            src="https://static1.squarespace.com/static/58f705e5893fc0eeb1eaf706/t/5dd4dde5f33896519edabfb0/1574231527105/in-white.png?format=500w"
+                                            class="insta"></a></div>
+                            </td>
+                        </tr>
                     </th>
                 </table>
             </div>
-            <div id="border" class="card border-primary mb-3 col-sm-6">
+            <div id="border" class="card border-info mb-3 col-sm-6">
                 <div class="card-header">
-                    <h4 class="text-primary">My Skills:</h4>
+                    <h4 class="text-success">My Skills:</h4>
                     <ul class="nav nav-tabs">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Languages</a>
-                                <div class="dropdown-menu">
-                                    <a class="dropdown-item" href="#">Javascript ES6</a>
-                                    <a class="dropdown-item" href="#">CSS3</a>
-                                    <a class="dropdown-item" href="#">HTML5</a>
-                                    <a class="dropdown-item" href="#">TypeScript</a>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#language">Lang.</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" data-toggle="tab" href="#frame">Frameworks</a>
+                            <a class="nav-link" data-toggle="tab" href="#frame">Frame.</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" data-toggle="tab" href="#tech">Tech.</a>
@@ -80,70 +81,76 @@
                             <a class="nav-link" data-toggle="tab" href="#certs">Certs</a>
                         </li>
                     </ul>
-        <div id="myTabContent" class="tab-content">
-            <div class="tab-pane fade" id="certs">
-                <h5 class="text-primary">Current Certifications + Others in Progress:</h5>
-                <p>CompTIA Network + (9FWGZZMFHC4E1ZKG), AWS Certified Cloud Practitioner, AWS Certified Developer – Associate, AWS Certified Security – Specialty</p>
-            </div>
-            <div class="tab-pane fade" id="frame">
-                <h5 class="text-primary">Frameworks +:</h5>
-                <p>jQuery, Bootstrap, Flexbox, ReactJS, Redux, AngularJS, Express, NoSQL, MySQL, SQL, Node.js , Mongodb server, Apache Cordova, Adobe Photoshop, Excel, Microsoft Office</p>
-            </div>
-            <div class="tab-pane fade" id="tech">
-                <h5 class="text-primary">Technologies:</h5>
-                <p>Visual Studio Code, Git, GitHub, GitKraken, Slack, Atom, Responsive Web Design, AJAX, JSON, XML, Amazon AWS.</p>
-            </div>
-            <div class="tab-pane fade" id="other">
-                <h5 class="text-primary">Other Skills (and/or currently learning):</h5>
-                <p>React Native, Java, Ruby, Python, PHP, C#, .NET Framework, .NET Core, ASP.NET, Agile Project Management, Network, Cyber Security, Public Speaker, Leadership Trainer.</p>
-            </div>
-        </div>
-    </div>
-
+                    <div id="myTabContent" class="tab-content">
+                        <div class="tab-pane fade" id="language">
+                            <h5 class="text-info">Languages:</h5>
+                            <p>Javascript (ES6), HTML5, CSS3, TypeScript.</p>
+                        </div>
+                        <div class="tab-pane fade" id="certs">
+                            <h5 class="text-info">Current Certifications + Others in Progress:</h5>
+                            <p>CompTIA Network + (9FWGZZMFHC4E1ZKG), AWS Certified Cloud Practitioner, AWS Certified
+                                Developer – Associate, AWS Certified Security – Specialty</p>
+                        </div>
+                        <div class="tab-pane fade" id="frame">
+                            <h5 class="text-info">Frameworks +:</h5>
+                            <p>jQuery, Bootstrap, Flexbox, ReactJS, Redux, AngularJS, Express, NoSQL, MySQL, SQL, Node.js ,
+                                Mongodb server, Apache Cordova, Adobe Photoshop, Excel, Microsoft Office</p>
+                        </div>
+                        <div class="tab-pane fade" id="tech">
+                            <h5 class="text-info">Technologies:</h5>
+                            <p>Visual Studio Code, Git, GitHub, GitKraken, Slack, Atom, Responsive Web Design, AJAX, JSON,
+                                XML, Amazon AWS.</p>
+                        </div>
+                        <div class="tab-pane fade" id="other">
+                            <h5 class="text-info">Other Skills (and/or currently learning):</h5>
+                            <p>React Native, Java, Ruby, Python, PHP, C#, .NET Framework, .NET Core, ASP.NET, Agile Project
+                                Management, Network, Cyber Security, Public Speaker, Leadership Trainer.</p>
+                        </div>
+                    </div>
+                </div>
+    
                 <div class="card-body">
-                    <h4 class="card-title text-primary">My Repositories on Github:</h4>
-                
+                    <h4 class="card-title text-success">My Repositories on Github:</h4>
+    
                     <div class="form-group">
-                        
+    
                         <div class="form-group">
                             <div class="input-group mb-3">
                                 <div class="input-group-prepend">
                                     <span class="input-group-text">GitHub Username:</span>
                                 </div>
-                                <input type="text" class="form-control-lg" for="inputDefault" aria-label="kevinfrohlich" placeholder="kevinfrohlich">
+                                <input type="text" class="form-control-lg" for="inputDefault" aria-label="kevinfrohlich"
+                                    placeholder="kevinfrohlich">
                                 <div class="input-group-append">
-                                    <span class="input-group-text"><button class="btn btn-outline-primary btn-sm"  placeholder="kevinfrohlich" onclick="loadRepos()">Load Repos</button></span>
+                                    <span class="input-group-text"><button class="btn btn-outline-info btn-sm"
+                                            placeholder="kevinfrohlich" onclick="loadRepos()">Load Repos</button></span>
                                 </div>
                             </div>
                         </div>
                     </div>
-
-                    <!--<div id="myRepos">
-                    GitHub Username:
-                    <input type="text" id="username" value="kevinfrohlich" />
-                    <button class="btn btn-outline-primary" onclick="loadRepos()">Load Repos</button>-->
                     <ul id="repos">
                         <li>
                             <a href="{repo.html_url}"></a>
-                </li>
-                </ul>
+                        </li>
+                    </ul>
                 </div>
-                    <!--<p id="pasteHere" class="card-text"></p>-->
-                </div>
+    
             </div>
-
-        </div>
-
-        <footer class="footer mt-auto py-2">
+            
+        </div><br>
+    <footer class="footer container">
+        <button type="button" class="btn btn-info btn-lg btn-block">
             <div class="container" id="contact">
-                <span class="text-item">Contact: 530 604 9389 - Redding, CA.</span>
-                    <span><a class="nav-link" style="text-align: center" href="mailto:kevinfrohlich@gmail.com"><img src="images/email.png" id="email">
+                <span class="text-item">Contact: (530) 604 9389 - Redding, CA.</span>
+                <span><a class="nav-link" style="text-align: center" href="mailto:kevinfrohlich@gmail.com"><img
+                            src="https://static1.squarespace.com/static/58f705e5893fc0eeb1eaf706/t/5dd4d9026bae7d14c44542de/1574230275720/email.png?format=750w"
+                            id="email">
                         kevinfrohlich@gmail.com</a></span>
             </div>
-        </footer>
-    </div>
-
-    <script src=script.js type="text/javaScript"></script>
+        </button>
+    
+    </footer>
+        <script src=script.js type="text/javaScript"></script>
 </body>
 
 </html>

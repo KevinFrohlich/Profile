@@ -1,14 +1,3 @@
-/*let loadRepo = new XMLHttpRequest();
-loadRepo.onreadystatechange = function () {
-    if (this.readyState == 4 && this.status == 200) {
-        let myResult = JSON.parse(this.responseText);
-        document.getElementById("pasteHere").innerHTML = myResult[1].svn_url;
-        
-    }
-}
-loadRepo.open("GET", "https://api.github.com/users/kevinfrohlich/repos", true);
-loadRepo.send();*/
-
 function loadRepos() {
 	$('#repos').empty();
 	let url = 'https://api.github.com/users/kevinfrohlich/repos';
@@ -69,38 +58,3 @@ $(document).ready(function() {
 	});
 });
 
-/*$(document).ready(function () {
-    $(".git").hover(function () {
-        $(this).css("height", "50px");
-    });
-    $(".git").mouseleave(function () {
-        $(this).css("height", "25px");
-    });
-});
-
-$(document).ready(function () {
-    $(".linkin").hover(function () {
-        $(this).css("height", "50px");
-    });
-    $(".linkin").mouseleave(function () {
-        $(this).css("height", "25px");
-    });
-});
-
-$(document).ready(function () {
-    $(".face").hover(function () {
-        $(this).css("height", "50px");
-    });
-    $(".face").mouseleave(function () {
-        $(this).css("height", "25px");
-    });
-});
-
-$(document).ready(function () {
-    $(".insta").hover(function () {
-        $(this).css("height", "50px");
-    });
-    $(".insta").mouseleave(function () {
-        $(this).css("height", "25px");
-    });
-});*/
